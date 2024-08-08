@@ -15,8 +15,6 @@ git clone https://github.com:cschult/odt.yazi.git
 
 or install with ya:
 
-`~/.config/yazi/plugins/`:
-
 ```bash
 ya pack --add cschult/odt
 ```
