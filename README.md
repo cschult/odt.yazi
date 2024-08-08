@@ -16,7 +16,7 @@ or install with ya:
 `~/.config/yazi/plugins/`:
 
 ```bash
-ya pack --add cschult/odt.yazi.git
+ya pack --add cschult/odt
 ```
 
 then include it in your `yazi.toml` to use:
