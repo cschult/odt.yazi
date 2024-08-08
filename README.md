@@ -1,13 +1,22 @@
 # odt.yazi
 
-Plugin for [Yazi](https://github.com/sxyazi/yazi) to preview libreoffice writer (.odt) files with [odt2txt](https://github.com/dstosberg/odt2txt).
+Plugin for [Yazi](https://github.com/sxyazi/yazi) to preview libreoffice
+writer (.odt) files with [odt2txt](https://github.com/dstosberg/odt2txt).
 
-To install, use vcsh repo yazi.
+To install, clone the repo inside your `~/.config/yazi/plugins/`
 
 `~/.config/yazi/plugins/`:
 
 ```bash
-git clone https://github.com/Reledia/glow.yazi.git
+git clone https://github.com:cschult/odt.yazi.git
+```
+
+or install with ya:
+
+`~/.config/yazi/plugins/`:
+
+```bash
+ya pack --add cschult/odt.yazi.git
 ```
 
 then include it in your `yazi.toml` to use:
